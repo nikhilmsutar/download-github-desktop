@@ -1,18 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #1c1f24;
     background-image: url(/images/star-bg.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #9f7be1;
 }
 
 #icon{
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    left: 45%;
-    top: 5%;
-    width: 100px;
+    width: 96px;
+    margin-top: 40px;
 }
+
+.nav-items{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.nav-items > li {
+    display:inline-block;
+    padding-left: 12px;
+}
+
+.nav-items > li > a {
+    font-size: 16px;
+}  
+
+.nav-items .link-active {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+}  
+
+.heading{
+    font-weight: 100;
+    font-size: 48px;
+    line-height: 72px;
+    margin-top: 50px;
+}
+
+.sub-heading{
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffffa6;
+    margin-bottom: 50px;
+}
+
+.download{
+    padding: 11px 25px 11px 25px;
+    font-size: 20px;
+    background-image : linear-gradient(to bottom, #8241f9, #4e277b);
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.download-others{
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffffa6;
+}
+
+.download-terms{
+    margin-top: px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffffa6;
+}
+
 
 .scroll{
     height: 10000px;
