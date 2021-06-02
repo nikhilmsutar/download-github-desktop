@@ -1,0 +1,19 @@
+body{
+    background-color: #1c1f24;
+    background-image: url(/images/star-bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#icon{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 45%;
+    top: 5%;
+    width: 100px;
+}
+
+.scroll{
+    height: 10000px;
+}
