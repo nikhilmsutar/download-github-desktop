@@ -1,2 +1,2 @@
-# learn-git
-learning-github-desktop
+# github-desktop
+github-desktop
